@@ -1,0 +1,45 @@
+/* Write some CSS below */
+h1 {
+	color: white;
+	margin-top: 0px;
+	font-family: 'Chivo', sans-serif;
+}
+
+h2{
+	color: white;
+}
+
+.banner {
+	text-align: center;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+body {
+	margin: 0px;
+}
+
+.button-blue {
+	color: white;
+	font-weight: bold;
+	background-color: blue;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.button-blue:hover {
+	background-color: red;
+}
+
+img {
+	width: 200px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
